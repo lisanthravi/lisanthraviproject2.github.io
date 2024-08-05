@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="name">Pomodoro Timer</h1>
+    
+        <div class="outer">
+            <div class="image">
+                <div class="work_content">
+                    <center><h1  style="color: rgb(32, 38, 87);">Keep Working</h1></center>
+                    <div class="a">
+
+                <p id="w_min" >25</p>
+                <p class="colen">:</p>
+                
+                <p id="w_sec">00</p>
+            </div>
+            <center><button onclick="pause()" class="pause_but">Pause</button></center>
+        </div>
+                <div class="break_content">
+                    <center><h1  style="color: rgb(32, 38, 87);">Relax Time</h1></center>
+                    <div class="ba">
+
+                <p id="b_min" >25</p>
+                <p class="colen">:</p>
+                
+                <p id="b_sec">00</p>
+            </div>
+            <center><button onclick="pause()" class="pause_but">Pause</button></center>
+        </div>
+
+    </div>
+    <button onclick="start()" class="start_but">Start</button>
+    <button onclick="reset()" class="reset_but">Reset</button>
+ 
+<div class="duration">
+<div class="work_duration">
+    <div class="name_work">
+        <h2 style="color: rgb(23, 46, 114);text-align: center;">Work Duration</h2>
+    </div>
+    <button id="work_increment" onclick="work_min_increment()">+</button>
+    <p id="work_num">25</p>
+    <button id="work_decrement" onclick="work_min_decrement()">-</button>
+    
+</div>
+<div class="Number_of_cycle">
+    <div class="name_cycles">
+        <h2 style="color: rgb(23, 46, 114);text-align: center;">Number of Cycles</h2>
+    </div>
+    <p id="cycle_num">0</p>
+    <button class="set" onclick="set()">Set</button>
+</div>
+<div class="break_duration">
+    <div class="name_break">
+        <h2 style="color: rgb(23, 46, 114);text-align: center;">Break Duration</h2>
+    </div>
+    <button id="break_increment" onclick="break_min_increment()">+</button>
+    <p id="break_num">5</p>
+    <button id="break_decrement" onclick="break_min_decrement()">-</button>
+</div>
+
+</div>
+ 
+    </div>
+<script src="script.js"></script>
+    
+</body>
+</html>

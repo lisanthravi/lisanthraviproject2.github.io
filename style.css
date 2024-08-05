@@ -1,0 +1,208 @@
+ 
+#name{
+    text-align: center;
+    padding: 20px;
+    font-size: 55px;
+    font-family:comic sans 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(218, 224, 248);
+}
+.outer
+{
+     
+    height: 30cm;
+    width: 100%;
+}
+.image
+{
+    position: relative;
+    height: 9cm;
+    width: 10cm;
+     
+    left: 13cm;
+    background-image: url(tomato.png);
+     
+}
+.start_but,.reset_but
+{
+    color: white;
+    background-color: rgb(5, 63, 125);
+    height: 2.5cm;
+    width: 2.5cm;
+    font-size: xx-large;
+    border-radius: 48px;
+    border: none;
+}
+.start_but
+{
+    position: relative;
+    left: 10cm;
+    top: -2cm;
+}
+.reset_but
+{
+    position: relative;
+    left: 21cm;
+    top: -2.2cm;
+
+}
+.ba{
+    display: flex;
+    font-size: 2cm;
+    
+    left: 1cm;
+    position: relative;
+}
+.a
+{
+    display: flex;
+    font-size: 2cm;
+        left: 0.4cm;
+    position: relative;
+}
+.work_content
+{
+    padding: 20px;
+    position: relative;
+     
+    height: 3.5cm;
+    width: 6cm;
+    top: 3.6cm;
+    left: 2.2cm;
+    color: white;
+     display: block;
+}
+.break_content
+{
+    padding: 20px;
+    position: relative;
+     
+    height: 3.5cm;
+    width: 6cm;
+    top: 3.6cm;
+    left: 2.2cm;
+    color: white;
+    display: none;
+}
+.pause_but
+{
+    background-color: rgb(83, 131, 93);
+    border-color: aliceblue;
+    border-radius: 15px;
+    width: 80px;
+    box-shadow: 1px 1px;
+    font-size: larger;
+    height: 40px;
+    color: white;
+}
+
+.work_duration
+{
+    height: 8cm;
+    width: 6cm;
+    border-radius: 20px;
+    border: 2px solid black;
+    position: relative;
+    left: 6cm;
+}
+.duration{
+    height: 8cm;
+    width: 100%;
+    
+    position: relative;
+    display: flex;
+}
+.name_work,.name_cycles,.name_break
+{
+    position: relative;
+    padding: 9.4px;
+    height: 0.63cm;
+    width: 5.45cm;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(238, 196, 197);
+}
+.Number_of_cycle
+{
+    height: 5.3cm;
+    width: 6cm;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 9cm;
+   
+}
+ 
+.break_duration
+{
+    height: 8cm;
+    width: 6cm;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 12cm;
+}
+#work_increment,#break_increment
+{
+    height: 1.8cm;
+    width: 1.8cm;
+    left: 75px;
+    top: 2%;
+    position: relative;
+    font-size: 1.4cm;
+    border-radius: 10px;
+    background-color: rgb(75, 75, 90);
+    color: white;
+    border: none;
+    
+}
+#work_num,#break_num
+{
+    font-size: 1.5cm;
+    left: 2.2cm;
+    top: 15px;
+    position: relative;
+}
+.set
+{
+    background-color: rgb(83, 131, 93);
+    border-color: aliceblue;
+    border-radius: 15px;
+    width: 105px;
+    box-shadow: 1px 1px;
+    font-size: xx-large;
+    height: 65px;
+    color: white;
+    position: relative;
+    top: 1.5cm;
+    left: 1.5cm;
+}
+#cycle_num
+{
+    font-size: 2.5cm;
+    left: 2.2cm;
+    top: 30px;
+    position: relative;
+}
+
+#work_decrement,#break_decrement
+{
+    height: 1.8cm;
+    width: 1.8cm;
+    left: 75px;
+    top: 1cm;
+    position: relative;
+    font-size: 1.4cm;
+    border-radius: 10px;
+    background-color: rgb(75, 75, 90);
+    color: white;
+    border: none;
+    
+}
